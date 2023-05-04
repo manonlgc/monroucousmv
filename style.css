@@ -1,0 +1,77 @@
+body { 
+	text-align: center; 
+	font-family: 'Bruno Ace SC', cursive;
+	background-color: #B70F78;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23B70F78' cx='50' cy='0' r='50'/%3E%3Cg fill='%23bb197b' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23be217e' cx='50' cy='100' r='50'/%3E%3Cg fill='%23c22880' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23c62e83' cx='50' cy='200' r='50'/%3E%3Cg fill='%23c93386' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23cd3989' cx='50' cy='300' r='50'/%3E%3Cg fill='%23d03e8c' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23d4438f' cx='50' cy='400' r='50'/%3E%3Cg fill='%23d84892' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23db4d95' cx='50' cy='500' r='50'/%3E%3Cg fill='%23df5298' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23e2569b' cx='50' cy='600' r='50'/%3E%3Cg fill='%23e65b9e' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23ea5fa1' cx='50' cy='700' r='50'/%3E%3Cg fill='%23ed64a4' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23f168a7' cx='50' cy='800' r='50'/%3E%3Cg fill='%23f46daa' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23f871ad' cx='50' cy='900' r='50'/%3E%3Cg fill='%23fb76b0' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23FF7AB3' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: contain;
+}
+
+
+ul { text-align: left; }
+
+h1 { color: red; font-family: arial}
+
+h2 { color: green; }
+
+.frame { background: lightgreen;
+border: solid 10px orange;
+border-radius: 50px;
+padding: 50px;
+margin: 50px ;
+box-shadow: 10px 10px 10px pink;
+}
+
+.frame2 { background: #B71375;
+	border: solid 10px hotpink;
+	border-radius: 50px;
+	padding: 50px;
+	margin: 50px;
+	box-shadow: 10px 10px 10px pink;
+}
+
+.avatar { width: 250px;
+	height: 250px;
+	border-radius: 50% ;
+	object-fit: cover;
+	box-shadow: 10px 10px 10px pink;
+}
+
+.galery { 
+	display: flex; 
+	justify-content: space-between ;
+	hieght: 300px;
+	background: pink;
+	align-items: center;
+
+}
+
+.loc {
+	display: flex;
+	justify-content: space-around;
+
+}
+
+
+.logo{
+
+	border-radius: 50%; 
+	height: 100px;
+	width: 100px;
+	object-fit: cover;
+
+}
+
+
+mynavbar{
+	background: lightblue;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
